@@ -8,10 +8,20 @@
     <title>Analizador de palabras</title>
     <script src="js/analiza-palabras.js"></script>
     <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-
+    <div class="container h-100 d-flex justify-content-center">
+        <form class="form-container">
+            <div class="form-group">
+                <label class="text-white" for="palabras">palabras</label>
+                <input class="col-12" type="text" class="form-control" id="palabras">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
