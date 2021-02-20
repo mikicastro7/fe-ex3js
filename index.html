@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analizador de palabras</title>
-    <script src="js/analiza-palabras.js"></script>
+    <script src="js/analiza-palabras.js" defer></script>
     <script src="js/scripts.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
@@ -17,9 +17,9 @@
         <form class="form-container">
             <div class="form-group">
                 <label class="text-white" for="palabras">palabras</label>
-                <input class="col-12" type="text" class="form-control" id="palabras">
+                <textarea rows="1" cols="25" class="col-12" type="text" class="form-control" id="palabras"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id="#myBtn" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </body>
